@@ -2,7 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'opentok'
 
-API_KEY =  ""	# Replace with your OpenTok API key.
+API_KEY =  ""		# Replace with your OpenTok API key.
 API_SECRET = "" 	# Replace with your OpenTok API secret.
 OTSDK = OpenTok::OpenTokSDK.new API_KEY, API_SECRET
 
